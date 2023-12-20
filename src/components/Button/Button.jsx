@@ -1,6 +1,6 @@
-const Button = (props) => {
-    console.log(props)
-    return <button onClick={props.handleClick} style={{ color: 'red'}}>{props.label}</button>
+const Button = ({ handleClick, color, children, className }) => {
+    console.log(children)
+    return <button onClick={handleClick} className={className} style={{ color: color }}>{children}</button>
 }
 
 export default Button
