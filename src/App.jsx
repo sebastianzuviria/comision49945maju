@@ -1,11 +1,12 @@
-import NavBar from './components/NavBar/NavBar'
-
-function App() {
-
-
+import FormWithValidationHOC from "./components/FormWithValidationHOC/FormWithValidationHOC"
+// import TaskFilterRenderProps from "./components/TaskFilterRenderProps/TaskFilterRenderProps"
+// import ItemCount from "./components/ItemCount/ItemCount"
+const App = () => {
   return (
     <>
-      <NavBar />
+      <FormWithValidationHOC />
+      {/* <TaskFilterRenderProps /> */}
+      {/* <ItemCount /> */}
     </>
   )
 }
